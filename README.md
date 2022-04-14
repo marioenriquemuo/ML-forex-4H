@@ -5,9 +5,12 @@ Machine learning model for Forex prediction using 4H candles and the historical 
 
 ## Initial data set.
 
-Observations: 24523
-Columns: 10
-Start date: 4/28/2006
-End date: 10/11/2021
+-Observations: 24523
+
+-Columns: 10
+
+-Start date: 4/28/2006
+
+-End date: 10/11/2021
 
 The initial data set is the historical 4H for EURUSD
