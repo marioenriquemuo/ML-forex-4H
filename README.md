@@ -40,3 +40,25 @@ Working and analyzing data is the date after applying new columns (Metrics) and 
 * D_target
 * D_stop_trade
 
+
+## Funciones.py File
+
+On the functions file, you are going to find the following functions:
+
+* newcolumns( df ): 
+ * Input: Raw historical data frame with the following columns
+['bidopen', 'bidclose', 'bidhigh', 'bidlow','tickqty']
+ * This function will include all the necessary metrics and dimensions.
+
+* double( df ):
+ * Input: The resulting data frame from the previews function ( newcolumns(df) ). **Do not overtire the newcolumns df**
+ * This function will identify double top or double bottom patterns on the historical data.
+
+* gain_calculator( double, newcolumns  )
+ * Input: Double and newcolumns data frames.
+ * This function will review the following candles after the double observation and assess if the theoretical trade was successful, creating a new dimension GAIN. where 1 will be applied for successful results and 0 for failure.
+
+* cleandataframe( DF ):
+ * Input: The resulting data frame from the gain_calculator function.
+ * This function will remove unnecessary columns and organize the data.
+
