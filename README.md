@@ -66,3 +66,29 @@ On the functions file, you are going to find the following functions:
 
 Data graphs and initial data analysis. 
 
+## First Model testing Folder
+
+In this folder, you are going to find the first initial test of different Machine learning models some of them are tree base and different parameters like PCA and normalizing.
+
+### Tested models
+* DecisionTreeClassifier
+* RandomForestClassifier
+* KNeighborsClassifier
+* LogisticRegression
+* SVC ( Support Vector Machine )
+* GaussianNB
+* BernoulliNB
+* GradientBoostingClassifier
+* LGBMClassifier
+* XGBClassifier
+
+### Tested data frames
+* All data
+* Only bull data
+* Only bearish data
+* Normalized data
+* PCA data
+* Oversample data
+* Undersample data
+
+
